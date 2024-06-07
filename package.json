@@ -1,0 +1,36 @@
+{
+  "name": "smart-tourism-api",
+  "version": "1.0.0",
+  "description": "api for develop smart tourism example ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloCasin/smartTourism-api.git"
+  },
+  "keywords": [
+    "smart",
+    "tourism",
+    "restaurant",
+    "opinions"
+  ],
+  "author": "Pablo Casin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloCasin/smartTourism-api/issues"
+  },
+  "homepage": "https://github.com/PabloCasin/smartTourism-api#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0-alpha.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
+  }
+}
